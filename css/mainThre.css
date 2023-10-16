@@ -1,0 +1,248 @@
+.mainThre {
+  background-color: #fff;
+  height: 100%;
+  margin-top: 250px;
+}
+
+.textTh {
+  text-align: center;
+  margin-bottom: 62px;
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 81px;
+}
+
+.gr1 {
+  width: 413px;
+  height: 439px;
+  border-radius: 35px;
+  opacity: 0.9;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.gr2 {
+  width: 413px;
+  height: 439px;
+  border-radius: 35px;
+  opacity: 0.9;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.gr3 {
+  width: 413px;
+  height: 439px;
+  border-radius: 35px;
+  opacity: 0.9;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.gr4 {
+  width: 413px;
+  height: 439px;
+  border-radius: 35px;
+  opacity: 0.9;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.gr5 {
+  width: 413px;
+  height: 439px;
+  border-radius: 35px;
+  opacity: 0.9;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.gr6 {
+  width: 413px;
+  height: 439px;
+  border-radius: 35px;
+  opacity: 0.9;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.gr1_5 {
+  margin-top: 60px;
+}
+.gr1_6 {
+  margin-top: 60px;
+}
+
+.pGrid {
+  color: #363535;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.52px;
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnGr {
+  max-width: 270px;
+  width: 100%;
+  padding: 17px;
+  border: none;
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.btnGr2 {
+  max-width: 270px;
+  width: 100%;
+  padding: 17px;
+  border: none;
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btnGr:hover {
+  background: linear-gradient(180deg, #00c9c9 0%, #0d4c93 100%);
+}
+.btnGr2:hover {
+  background: linear-gradient(180deg, #00c9c9 0%, #0d4c93 100%);
+}
+
+.imgGr {
+  margin-bottom: 30px;
+}
+
+.mainFot {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.textMainFot {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imgRig {
+  cursor: pointer;
+}
+
+.textH3Fot {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 1100px) {
+  .grid {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template-columns: auto auto;
+    margin-bottom: 81px;
+  }
+  .gr3 {
+    display: none;
+  }
+  .gr4 {
+    display: none;
+  }
+  .gr5 {
+    display: none;
+  }
+  .gr6 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .gr1 {
+    width: 303px;
+    height: 439px;
+  }
+  .gr2 {
+    width: 303px;
+    height: 439px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .gr2 {
+    display: none;
+  }
+  .gr1 {
+    width: 335px;
+    height: 439px;
+    margin-left: 30px;
+  }
+  .textMainFot {
+    font-size: 16px;
+  }
+}

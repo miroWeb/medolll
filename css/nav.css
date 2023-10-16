@@ -1,0 +1,278 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 17px;
+  /* border: 1px solid red; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.phone {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.phone_med {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.phone_med:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.loc:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+.phone:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.loc-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.span_loc_text {
+  max-width: 163px;
+  width: 100%;
+}
+.span_phone_text {
+  max-width: 145px;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 53px;
+}
+
+.logoMedia {
+  display: none;
+  width: 145px;
+  height: 38px;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fac {
+  width: 153px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #0d4c93;
+  gap: 4px;
+}
+.rus {
+  width: 153px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #0d4c93;
+  gap: 4px;
+}
+
+.rus:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.rusRes {
+  width: 85px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #0d4c93;
+  gap: 4px;
+}
+
+.rusRes:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.fac:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.facDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.ruDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.facRu {
+  display: flex;
+  gap: 51px;
+}
+.serFac {
+  display: flex;
+  gap: 37px;
+}
+
+.burger {
+  width: 61px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.burger:hover {
+  transition: 0.3s;
+  background-color: rgb(223, 236, 232);
+}
+
+.burgerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* MEDIA */
+@media only screen and (max-width: 1100px) {
+  .span_loc_text {
+    display: none;
+  }
+  .span_phone_text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fac {
+    display: none;
+  }
+  .rus {
+    display: none;
+  }
+  .rusRes {
+    display: flex;
+  }
+  .burger {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .loc {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .logoMedia {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 544px) {
+  .search {
+    display: none;
+  }
+  .rusRes {
+    width: 60px;
+    height: 40px;
+  }
+  .phone_med {
+    display: flex;
+  }
+  .phone {
+    display: none;
+  }
+  .burger {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .rusRes {
+    margin-left: -58px;
+  }
+  .burger {
+    margin-left: -30px;
+  }
+}

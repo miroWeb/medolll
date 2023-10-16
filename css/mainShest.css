@@ -1,0 +1,199 @@
+.shest {
+  background-color: #fff;
+  height: 100%;
+}
+
+.shest2 {
+  display: flex;
+  gap: 73px;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1She {
+  text-align: center;
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 200px;
+}
+
+.doctorImg {
+  border-radius: 50px;
+  margin: 0 auto;
+  position: relative;
+  top: -125px;
+}
+
+.fatherShest1 {
+  max-width: 382px;
+  width: 100%;
+  height: 450px;
+  border-radius: 35px;
+  border: 2px solid #f6f6f6;
+  opacity: 0.9;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+}
+.fatherShest2 {
+  max-width: 382px;
+  width: 100%;
+  height: 450px;
+  border-radius: 35px;
+  border: 2px solid #f6f6f6;
+  opacity: 0.9;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+}
+.fatherShest3 {
+  max-width: 382px;
+  width: 100%;
+  height: 450px;
+  border-radius: 35px;
+  border: 2px solid #f6f6f6;
+  opacity: 0.9;
+  background: linear-gradient(180deg, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.shestP {
+  max-width: 327px;
+  width: 100%;
+  color: #363535;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+}
+
+.aHr {
+  text-align: center;
+  margin-left: auto;
+  max-width: 312px;
+  width: 100%;
+  color: #0d4c93;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.aHrDiv {
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+
+.aHr:hover {
+  color: #00c9c9;
+  text-decoration: underline;
+}
+
+.shestP1 {
+  text-align: center;
+  color: #0d4c93;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  position: relative;
+  top: -80px;
+}
+
+.shestBtn {
+  border: none;
+  max-width: 270px;
+  width: 100%;
+  padding: 13px;
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+.shestBtn:hover {
+  background: linear-gradient(180deg, #0d4c93 0%, #00c9c9 100%);
+}
+
+.shestBtnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+}
+
+.shestFot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.im {
+  width: 30px;
+  cursor: pointer;
+  position: relative;
+  left: -180px;
+}
+.im2 {
+  width: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 100px;
+}
+
+.imH3 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: -180px;
+}
+
+.imH32 {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 100px;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 770px) {
+  .fatherShest3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .fatherShest2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .shestFot {
+    display: none;
+  }
+}
